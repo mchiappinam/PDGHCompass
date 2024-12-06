@@ -1,0 +1,38 @@
+# Configuration for CompassNavigation by Adzwoolly and DenialMC!
+# Each number represents the slot in the compass GUI.
+# If the slot is not in use, set Enabled to False!
+# Item is the item to represent the teleport in the Compass GUI.
+# Use IDs for specifying an item:
+# http://www.minecraftwiki.net/wiki/Data_values
+# Pitch: -90 = Sky, +90 = Floor
+# The name and lore can have colour codes. The colour code is '&', e.g. '&6' for gold
+# For colour codes please check:
+# http://www.minecraftwiki.net/wiki/Formatting_codes
+# Up to 6 rows are supported.
+# You can specify data values for the item. For example: 35:2
+# You can specify Essentials warps using the Warp option.
+# You can specify BungeeCord servers using the Bungee option.
+# You can specify Lilypad servers using the Lilypad option.
+# You can specify prices for using certain slots with the Price option.
+# You can specify item amouints with the Amount option.
+# You can specify enchanted status with the Enchanted option (true or false).
+# You can specify commands to run with the Command option (Don't include the first slash). To run a console command just write "c:" before the command itself. Use those modifiers: <name>, <displayname>, <x>, <y>, <z>, <yaw>, <pitch>.
+# Set up slots ingame with /cn setup!
+# You can disable the pvp warmup time with WarmupTime, increase the distance checked with WarmupDistance and the time to pass with WarmupDelay.
+# Don't forget to add items to the config!
+
+Item: 345
+GUIName: CompassNavigation
+Rows: 1
+Prefix: '&2&l[&a&lCN&2&l]'
+SignName: '&1[Teleport]'
+NoPermSignName: '&4[Teleport]'
+CommandName: 'compass'
+AutoUpdater: true
+Sounds: true
+WarmupTime: true
+WarmupDistance: 15
+WarmupDelay: 5
+DisabledWorlds:
+  - example1
+  - example2

@@ -1,0 +1,47 @@
+name: PDGHCompass
+main: me.mchiappinam.pdghcompass.CompassNavigation
+author: mchiappinam
+version: 1.0
+website: http://pdgh.net/
+commands:
+  compassnav:
+    description: Reload and update plugin
+    permission: compassnav.help
+    usage: "Usage: /compassnav [help/setup]"
+permissions:
+  compassnav.*:
+    description: Gives access to all CompassNavigation commands.
+    default: op
+    children:
+      compassnav.help: true
+      compassnav.reload: true
+      compassnav.update: true
+      compassnav.useanywhere: true
+      compassnav.nowarmup: true
+      compassnav.createsign: true
+      compassnav.free: true
+      compassnav.opensomeone: true
+  compassnav.help:
+    description: Allows you to get help
+    default: op
+  compassnav.reload:
+    description: Allows you to reload the plugin
+    default: op
+  compassnav.update:
+    description: Allows you to update the plugin
+    default: op
+  compassnav.useanywhere:
+    description: Allows you to use the compass anywhere
+    default: op
+  compassnav.nowarmup:
+    description: Allows you to bypass the warmup
+    default: op
+  compassnav.createsign:
+    description: Allows you to create navigation signs
+    default: op
+  compassnav.free:
+    description: Allows you to get everything for free
+    default: op
+  compassnav.opensomeone:
+    description: Allows you to open the inventory for somebody
+    default: op
